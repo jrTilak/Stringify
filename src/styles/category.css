@@ -19,5 +19,6 @@
     margin-bottom: 1rem;
 }
 .services button{
-    width: 350px;
+    max-width: 350px;
 }
+

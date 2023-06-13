@@ -11,4 +11,12 @@
     border-radius: 0 0 1rem 1rem;
     position: relative;
     top: -4px;
+    width: 80vw;
+}
+
+@media screen and (max-width: 768px) {
+    .info {
+        padding: 0.3rem;
+        font-size: 0.7rem;
+    }
 }

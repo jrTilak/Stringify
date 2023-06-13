@@ -21,3 +21,26 @@ h2.category-title {
     position: relative;
     top: 3px;
 }
+
+@media screen and (max-width: 768px) {
+    h2.category-title {
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+        .serviceDetails {
+            margin: .1rem .1rem .3rem .6rem;
+        }
+    
+        .serviceDetails h3 {
+            font-size: 1.2rem;
+        }
+    
+        .serviceDetails p {
+            font-size: .9rem;
+            margin-left: .2rem;
+        }
+    
+        .serviceDetails p i {
+            font-size: 1rem;
+        }
+}

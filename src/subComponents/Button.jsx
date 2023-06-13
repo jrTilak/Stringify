@@ -1,6 +1,5 @@
 import { useGlobalContext } from "../GlobalContext";
 import idMaker from "../utils/idMaker"
-import { capitalize, lowercase, remove, reverseCase, reverseText, uppercase } from "../utils/stringManipulation";
 const Button = ({ service, categoryTitle }) => {
     const {
         setShowServiceContent,

@@ -29,6 +29,7 @@ div.control button {
 div.control button.copy {
     border-top-right-radius: .5rem;
 }
+
 div.control button.clear {
     color: #e94040;
 }
@@ -46,4 +47,33 @@ div.control button.clear {
     position: relative;
     top: 1.5px;
     margin-right: 2px;
+}
+
+@media screen and (max-width: 768px) {
+
+    div.control {
+        padding: 0rem;
+    }
+
+    .left,
+    .right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button,
+    .case-sensitive {
+        margin: .2rem .2rem .1rem .2rem;
+    }
+
+    div.control button.copy {
+        border-top-right-radius: 0rem;
+    }
+    
+    div.control button.cut {
+        border-top-right-radius: .5rem;
+    }
+    div.control button.clear {
+        margin-bottom: .5rem;
+    }
 }

@@ -77,6 +77,7 @@ const Controls = () => {
 			</div>
 			<div className="right">
 				<button
+					className="cut"
 					type="button"
 					onClick={() => {
 						if (inputValue !== "") {
@@ -90,7 +91,7 @@ const Controls = () => {
 						}
 					}}
 				>
-					<span>Cut</span>
+					<span >Cut</span>
 					<i className="bx bx-cut"></i>
 				</button>
 				<button

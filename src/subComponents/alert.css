@@ -1,5 +1,4 @@
 .alert {
-    position: absolute;
     top: 25px;
     right: 30px;
     border-radius: 12px;
@@ -92,15 +91,39 @@
         right: 100%;
     }
 }
-.alert i{
+
+.alert i {
     font-size: 2rem;
 }
-.alert.success i{
+
+.alert.success i {
     color: blue;
 }
-.alert.warning i{
+
+.alert.warning i {
     color: orange;
 }
-.alert.error i{
+
+.alert.error i {
     color: red;
+}
+
+@media screen and (max-width: 768px) {
+    .alert {
+        padding: 10px 20px 10px 12px;
+    }
+
+    .alert i {
+        font-size: 1.4rem;
+    }
+
+    .message .text.text-1 {
+        font-size: 14px;
+
+    }
+    .message .text.text-2 {
+        font-size: 12px;
+
+    }
+
 }

@@ -4,3 +4,10 @@ h1.stringify {
     margin: 1rem;
     font-family: 'Carter One', cursive;
 }
+
+@media screen and (max-width: 768px) {
+    h1.stringify {
+        font-size: 1.8rem;
+        margin: .5rem;
+    }
+}

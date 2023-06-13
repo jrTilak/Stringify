@@ -20,3 +20,17 @@ p.desc {
     text-align: left;
     padding: .3rem;
 }
+
+@media screen and (max-width: 768px) {
+    div.btn-title {
+        font-size: 1rem;
+    }
+
+    div.btn-title i {
+        font-size: 1.5rem;
+    }
+
+    p.desc {
+        font-size: .8rem;
+    }
+}

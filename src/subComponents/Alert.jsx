@@ -16,7 +16,7 @@ const Alert = () => {
                 document.querySelector(".progress").classList.remove("active");
             }, 200);
         }
-    }, [alertType, setAlertIconType, setShowAlert, showAlert])
+    }, [alertType, setAlertIconType, setShowAlert, showAlert, toggleAlertClasses])
 
 
     return (
