@@ -2,7 +2,7 @@ import { createContext, useContext, useState } from "react"
 import { capitalize, extractSentences, extractUniqueCharacters, extractUniqueLetters, extractUniqueNumbers, extractUniqueWords, extractWords, lowercase, remove, reverseCase, reverseText, uppercase } from "./utils/stringManipulation"
 import { charCountNoSpaces, charCountfn } from "./utils/textAnalysis"
 import { URLencoder, extractEmailsFromString, extractPhoneNumbersFromString, extractURLsFromString } from "./utils/encoding"
-
+import PropTypes from "prop-types"
 const Context = createContext()
 export const useGlobalContext = () => useContext(Context)
 const GlobalContext = ({ children }) => {
@@ -194,5 +194,9 @@ const GlobalContext = ({ children }) => {
             {children}
         </Context.Provider>
     )
+}
+
+GlobalContext.propTypes = {
+    children: PropTypes.node.isRequired,
 }
 export default GlobalContext
