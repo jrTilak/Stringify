@@ -1,0 +1,23 @@
+h2.category-title {
+    font-size: 2.2rem;
+    margin-left: 2rem;
+}
+
+.serviceDetails {
+    margin: .6rem .1rem .6rem 4rem;
+}
+
+.serviceDetails h3 {
+    font-size: 1.7rem;
+}
+
+.serviceDetails p {
+    font-size: 1.2rem;
+    margin-left: .5rem;
+}
+
+.serviceDetails p i {
+    font-size: 1.5rem;
+    position: relative;
+    top: 3px;
+}

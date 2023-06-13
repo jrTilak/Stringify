@@ -1,0 +1,49 @@
+div.control {
+    align-content: center;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    background: #4c88d2ad;
+    border-top: none;
+    color: rgb(20, 20, 20);
+    border: 3.1px solid black;
+    border-radius: 1rem 1rem 0 0;
+    border-bottom: none;
+    display: flex;
+    justify-content: space-between;
+    padding: .4rem;
+    width: 80vw;
+}
+
+div.control button,
+div.control .case-sensitive {
+    display: inline-flex;
+    align-items: center;
+    width: auto;
+    background: #ffffffb8;
+}
+
+div.control button {
+    border-radius: 3px;
+}
+
+div.control button.copy {
+    border-top-right-radius: .5rem;
+}
+div.control button.clear {
+    color: #e94040;
+}
+
+
+.case-sensitive {
+    font-size: .9rem;
+    border-radius: 3px;
+    border-top-left-radius: .5rem;
+    border: 2px solid black;
+}
+
+.case-sensitive input {
+    font-size: 1.3rem;
+    position: relative;
+    top: 1.5px;
+    margin-right: 2px;
+}

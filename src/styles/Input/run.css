@@ -1,0 +1,28 @@
+.run {
+    margin-top: .5rem;
+    background: #4c88d2ad;
+    border-radius: .4rem;
+    padding: .3rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.run #outputType{
+    padding: 0.2rem;
+        border-radius: 0.5rem;
+        margin-left: 0.6rem;
+}
+.run button {
+    display: flex;
+    align-items: center;
+}
+
+.run button i {
+    font-size: 1.1rem;
+}
+
+.run input {
+    padding: 0.33rem;
+    margin: 0.5rem;
+    width: min-content;
+}

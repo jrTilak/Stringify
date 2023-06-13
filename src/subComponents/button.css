@@ -1,0 +1,22 @@
+div.btn-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .2rem;
+    font-size: 1.2rem;
+
+}
+
+div.btn-title i {
+    font-size: 2rem;
+}
+
+hr {
+    color: white;
+    padding: 0 .5rem;
+}
+
+p.desc {
+    text-align: left;
+    padding: .3rem;
+}

@@ -1,0 +1,23 @@
+.category {
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
+.category-title {
+    margin: 1rem;
+    font-size: 2rem;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-decoration: underline;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .3rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.services button{
+    width: 350px;
+}

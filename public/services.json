@@ -1,0 +1,72 @@
+[
+    {
+        "title": "String Manipulation",
+        "services": [
+            {
+                "title": "Lowercase",
+                "desc": "Converts text to lowercase, making all letters in the text appear in their lowercase form. This is useful for standardizing the text or when case sensitivity is not required."
+            },
+            {
+                "title": "Uppercase",
+                "desc": "Converts text to uppercase, making all letters in the text appear in their uppercase form. This can be helpful for emphasizing or highlighting text, or when case consistency is desired."
+            },
+            {
+                "title": "Capitalize First Letter",
+                "desc": "Capitalizes the first letter of each word in the text. This is commonly used for titles, headings, or proper noun formatting, where the first letter of each word needs to be in uppercase."
+            },
+            {
+                "title": "Capitalize Sentences",
+                "desc": "Capitalizes the first letter of each sentence in the text. This is useful for proper sentence casing, such as in writing articles, essays, or any context where sentence-level capitalization is desired."
+            },
+            {
+                "title": "Reverse Case",
+                "desc": "Reverses the case of each letter in the text, converting lowercase letters to uppercase and uppercase letters to lowercase. This can be used for creative purposes, to add variety or visual interest to the text."
+            },
+            {
+                "title": "Reverse Text",
+                "desc": "Reverses the order of characters in the text, effectively flipping the text backwards. This can be handy for creating mirror effects, generating reversed text, or for unique visual presentations."
+            },
+            {
+                "title": "Remove Whitespace",
+                "desc": "Removes all whitespace characters, such as spaces, tabs, and line breaks, from the text. This is helpful for removing unwanted spacing or formatting, or when dealing with text that needs to be condensed or processed without extra spaces."
+            },
+            {
+                "title": "Remove Specific Characters",
+                "desc": "Removes all characters specified from the text. This is helpful for removing unwanted characters."
+            },
+            {
+                "title": "Extract Unique Words",
+                "desc": "Extracts unique words from the text and returns them as an array or a string, removing any duplicates. This can be useful for generating word lists, analyzing vocabulary, or simplifying the text by eliminating repetitive words."
+            },
+            {
+                "title": "Extract Unique Letters",
+                "desc": "Extracts unique letters from the text and returns them as an array or a string. This can be valuable for creating letter frequency analyses, generating alphabets, or any scenario where individual letters need to be isolated or counted."
+            },
+            {
+                "title": "Extract Unique Numbers",
+                "desc": "Extracts unique numbers from the text and returns them as an array or a string. This can be beneficial for extracting numerical data, filtering out non-numeric characters, or obtaining a distinct set of numbers from a given text."
+            }
+        ]
+    },
+    {
+        "title": "Text Encoding/Decoding",
+        "services": [
+            {
+                "title": "URL Encoding",
+                "desc": "Encodes text to URL-safe format by converting special characters, non-ASCII characters, or reserved characters in a URL to their corresponding encoded representations."
+            },
+            {
+                "title": "URL Extractor",
+                "desc": "Extracts URLs from the given text, identifying and returning all valid URLs present in the input text."
+            },
+            {
+                "title": "Email Extractor",
+                "desc": "Extracts email addresses from the given text, identifying and returning all valid email addresses present in the input text."
+            },
+            {
+                "title": "Phone Number Extractor",
+                "desc": "Extracts phone numbers from the given text, identifying and returning all valid phone numbers present in the input text, including different formats and country codes."
+            }
+        ]
+    }
+]

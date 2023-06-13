@@ -1,0 +1,14 @@
+.info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background: #4c88d2ad;
+    border: 3.1px solid black;
+    border-top: none;
+    color: rgb(20, 20, 20);
+    border-radius: 0 0 1rem 1rem;
+    position: relative;
+    top: -4px;
+}
