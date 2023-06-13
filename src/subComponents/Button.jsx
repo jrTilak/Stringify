@@ -19,12 +19,7 @@ const Button = ({ service, categoryTitle }) => {
         setRunBtnText(serviceTitle)
         console.log(e.currentTarget.id)
         handleOutputChanges(e);
-        // if (String(inputValue).trim() === "") {
-            document.querySelector("#input-text").focus();
-        // }
-        // else {
-        //     document.querySelector("#output-text").focus();
-        // }
+        document.querySelector("#input-text").focus();
         window.scroll({
             top: 100,
             behavior: "smooth",
