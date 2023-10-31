@@ -1,7 +1,5 @@
-# [Stringify](https://stringify-jrtilak.netlify.app/)
+## [Stringify - Effortless Text Manipulation](https://stringify.jrtilak.me/)
 
-### Created By: [jrTilak](https://github.com/jrTilak)
-#### **Stringify: Effortless Text Manipulation**
 Stringify is a user-friendly web app that simplifies text manipulation. With its intuitive interface, you can effortlessly perform tasks like case conversions, find and replace, URL encoding, and much more. 
 
 ![preview](https://repository-images.githubusercontent.com/652996745/de305753-89f8-42bb-87c1-9d6c06f19f70)
@@ -16,7 +14,7 @@ Welcome to Stringify, a powerful web app for text manipulation and analysis. Thi
 
 ## Getting Started
 
-1. Access the Stringify web app by visiting [https://stringify-jrtilak.netlify.app/](https://stringify-jrtilak.netlify.app/).
+1. Access the Stringify web app by visiting [https://stringify.jrtilak.me/](https://stringify.jrtilak.me/).
 2. You will see a user-friendly interface with different text manipulation options.
 
 ## Text Manipulation Features
@@ -56,30 +54,6 @@ Welcome to Stringify, a powerful web app for text manipulation and analysis. Thi
 - You can copy the modified text from the output area and use it as needed.
 
 Happy text editing!
-
----
----
-
-## Features
-
-1. **String Manipulation:**
-* Lowercase: Convert text to lowercase for standardization or case-insensitive purposes.
-* Uppercase: Convert text to uppercase for emphasis or case consistency.
-* Capitalize First Letter: Capitalize the first letter of each word for titles or proper noun formatting.
-* Capitalize Sentences: Capitalize the first letter of each sentence for proper sentence casing.
-* Reverse Case: Reverse the case of each letter for creative text effects.
-* Reverse Text: Flip the text backwards for unique visual presentations.
-* Remove Whitespace: Eliminate whitespace characters to condense or process text.
-* Remove Specific Characters: Remove specified characters from the text.
-* Extract Unique Words: Extract unique words, eliminating duplicates for word lists or simplifying text.
-* Extract Unique Letters: Extract unique letters for letter frequency analyses or isolated letter usage.
-* Extract Unique Numbers: Extract unique numbers, filtering out non-numeric characters.
-
-2. **Text Encoding/Decoding:**
-* URL Encoding: Convert special characters in a URL to their encoded representations.
-* URL Extractor: Identify and extract valid URLs from the input text.
-* Email Extractor: Identify and extract valid email addresses from the input text.
-* Phone Number Extractor: Identify and extract valid phone numbers, including different formats and country codes.
 
 ---
 ---
