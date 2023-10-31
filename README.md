@@ -71,7 +71,7 @@
 
 ## Built With
  
-[![Vite.js][Vite.js]][Vite-url] [![React.js][React.js]][React-url] [![Javascript][Javascript]][Javascript-url] [![CSS][CSS]][CSS-url] [![HTML][HTML]][HTML-url]
+[![Vite.js][Vite.js]][Vite-url] [![React.js][React.js]][React-url] [![Node.js][Node.js]][Node-url] [![CSS][CSS]][CSS-url] [![HTML][HTML]][HTML-url]
 
 ## Utility Functions
 
@@ -139,3 +139,5 @@ Happy Text Editing!!
 [CSS-url]: https://developer.mozilla.org/en-US/docs/Web/css
 [HTML]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
 [HTML-url]: https://developer.mozilla.org/en-US/docs/Web/html
+[Node.js]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
+[Node-url]: https://nodejs.org/en
