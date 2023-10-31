@@ -1,26 +1,55 @@
-## [Stringify - Effortless Text Manipulation](https://stringify.jrtilak.me/)
-
-Stringify is a user-friendly web app that simplifies text manipulation. With its intuitive interface, you can effortlessly perform tasks like case conversions, find and replace, URL encoding, and much more. 
-
-![preview](https://repository-images.githubusercontent.com/652996745/de305753-89f8-42bb-87c1-9d6c06f19f70)
-
----
----
+[![Contributors][contributors-shield]][contributors-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Forks][forks-shield]][forks-url]
+[![Issues][issues-shield]][issues-url]
 
 
-# Stringify Web App User Guide
 
-Welcome to Stringify, a powerful web app for text manipulation and analysis. This guide will walk you through the main features and functionalities of the app.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://stringify.jrtilak.me/">
+    <img src="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_14f89010a3bc002214d138b8bc63cc74/stringify.png" alt="Logo" width="80" height="80">
+  </a>
 
-## Getting Started
+<h3 align="center">Stringify - Effortless Text Manipulation</h3>
 
-1. Access the Stringify web app by visiting [https://stringify.jrtilak.me/](https://stringify.jrtilak.me/).
-2. You will see a user-friendly interface with different text manipulation options.
+  <p align="center">
+    Stringify is a user-friendly web app that simplifies text manipulation. With its intuitive interface, you can effortlessly perform tasks like case conversions, find and replace, URL encoding, and much more. 
+    <br />
+    <a href="https://stringify.jrtilak.me/">View Demo</a>
+    ·
+    <a href="https://github.com/jrTilak/Stringify/issues">Request Feature</a>
+    ·
+    <a href="https://jrtilak.me/">Read More</a>
+  </p>
+</div>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a> </li>
+        <li><a href="#built-with">Built With</a></li>
+    <li><a href="#utility-functions">Utility Functions</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+[![Product Name Screen Shot][product-screenshot]]([https://example.com](https://repository-images.githubusercontent.com/652996745/de305753-89f8-42bb-87c1-9d6c06f19f70))
 
 ## Text Manipulation Features
+ 
 
 ### String Manipulation
-
 - **Lowercase**: Converts text to lowercase.
 - **Uppercase**: Converts text to uppercase.
 - **Capitalize First Letter**: Capitalizes the first letter of each word.
@@ -40,23 +69,9 @@ Welcome to Stringify, a powerful web app for text manipulation and analysis. Thi
 - **Email Extractor**: Extracts email addresses from the text.
 - **Phone Number Extractor**: Extracts phone numbers from the text.
 
-## How to Use
-
-1. Enter or paste your text in the provided input area.
-2. Select the desired text manipulation or encoding/decoding option.
-3. Click on the corresponding button to apply the selected operation.
-4. The result will be displayed in the output area.
-
-## Tips
-
-- You can experiment with different options to see how they affect your text.
-- The app supports both single-line and multi-line text inputs.
-- You can copy the modified text from the output area and use it as needed.
-
-Happy text editing!
-
----
----
+## Built With
+ 
+[![Vite.js][Vite.js]][Vite-url] [![React.js][React.js]][React-url] [![Javascript][Javascript]][Javascript-url] [![CSS][CSS]][CSS-url] [![HTML][HTML]][HTML-url]
 
 ## Utility Functions
 
@@ -80,12 +95,18 @@ Happy text editing!
 18. charCountfn: Calculates the character count of a string.
 19. charCountNoSpaces: Calculates the character count of a string without considering spaces.
 
-
----
----
+<!-- CONTRIBUTING -->
+## Contributing
+ 
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue and contribute as much you like. ❤️
+1. Fork the Project
+2. Create your Feature Branch 
+3. Commit your Changes 
+4. Push to the Branch 
+5. Open a Pull Request
 
 ## Conclusion
-
+ 
 Stringify is a powerful web app designed to simplify and streamline text manipulation and analysis tasks. With an intuitive interface and a wide range of features, it provides users with the ability to transform, encode, and decode text in various ways.
 
 Whether you need to convert text to lowercase or uppercase, capitalize words or sentences, extract unique words or numbers, or perform URL or email extraction, Stringify has got you covered. It offers a comprehensive set of utilities functions to meet your text manipulation needs.
@@ -95,4 +116,26 @@ Getting started with Stringify is easy. Simply visit the provided URL and start 
 Stringify is built using modern web technologies to ensure a smooth and seamless user experience. Its robust functionality and user-friendly interface make it a valuable tool for writers, programmers, students, and anyone working with text.
 
 Start leveraging the power of Stringify today and simplify your text manipulation tasks like never before.
+Happy Text Editing!!
 
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/jrtilak/stringify.svg?style=for-the-badge
+[contributors-url]: https://github.com/jrtilak/stringify/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/jrtilak/stringify.svg?style=for-the-badge
+[forks-url]: https://github.com/jrtilak/stringify/network/members
+[stars-shield]: https://img.shields.io/github/stars/jrtilak/stringify.svg?style=for-the-badge
+[stars-url]: https://github.com/jrtilak/stringify/stargazers
+[issues-shield]: https://img.shields.io/github/issues/jrtilak/stringify.svg?style=for-the-badge
+[issues-url]: https://github.com/jrtilak/stringify/issues
+[product-screenshot]: https://repository-images.githubusercontent.com/652996745/de305753-89f8-42bb-87c1-9d6c06f19f70
+[React.js]: https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org
+[Vite.js]: https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white
+[vite-url]: https://vitejs.dev/
+[Javascript]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
+[Javascript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[CSS]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
+[CSS-url]: https://developer.mozilla.org/en-US/docs/Web/css
+[HTML]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
+[HTML-url]: https://developer.mozilla.org/en-US/docs/Web/html
