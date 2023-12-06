@@ -8,7 +8,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://stringify.jrtilak.me/">
+  <a href="https://stringify.thapatilak.com.np/">
     <img src="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_14f89010a3bc002214d138b8bc63cc74/stringify.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -17,7 +17,7 @@
   <p align="center">
     Stringify is a user-friendly web app that simplifies text manipulation. With its intuitive interface, you can effortlessly perform tasks like case conversions, find and replace, URL encoding, and much more. 
     <br />
-    <a href="https://stringify.jrtilak.me/">View Demo</a>
+    <a href="https://stringify.thapatilak.com.np/">View Demo</a>
     ·
     <a href="https://github.com/jrTilak/Stringify/issues">Request Feature</a>
     ·
