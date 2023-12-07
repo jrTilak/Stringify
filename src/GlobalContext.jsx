@@ -73,9 +73,9 @@ const GlobalContext = ({ children }) => {
             case "buttonExtractUniqueWords":
                 setShowOutputType(true)
                 if (isCaseSensitive) {
-                    setOutputValue(extractUniqueWords(inputValue, outputType))
+                    setOutputValue(extractUniqueWords(inputValue, outputType).data)
                 } else {
-                    setOutputValue(extractUniqueWords(inputValue.toLowerCase(), outputType))
+                    setOutputValue(extractUniqueWords(inputValue.toLowerCase(), outputType).data)
                 }
                 break;
             case "buttonExtractUniqueLetters":
@@ -155,7 +155,7 @@ const GlobalContext = ({ children }) => {
         setCharNoSpacesCount(charCountNoSpaces(inputValue))
         setUniqueCharCount(extractUniqueCharacters(inputValue).length)
         setWordCount(extractWords(inputValue).length)
-        setUniqueWordCount(extractUniqueWords(inputValue).length)
+        setUniqueWordCount(extractUniqueWords(inputValue).len)
         setSentCount(extractSentences(inputValue).length)
     }
 

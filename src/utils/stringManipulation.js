@@ -61,10 +61,14 @@ let remove = (str, toRemove = " ") => {
 }
 
 const extractUniqueWords = (str, type = "string") => {
-    const words = extractWords(str);
+    const words = extractWords(str?.trim());
     const uniqueWordsSet = new Set(words);
-    const uniqueWordsArray = Array.from(uniqueWordsSet).sort();
-    return type === "array" ? JSON.stringify(uniqueWordsArray) : uniqueWordsArray.join(" ");
+    const uniqueWordsArray = Array.from(uniqueWordsSet)
+    const data = type === "array" ? JSON.stringify(uniqueWordsArray) : uniqueWordsArray.join(" ");
+    const len = uniqueWordsArray.length
+    return {
+        data: data, len:len
+    }
 };
 
 const extractWords = (str) => {
